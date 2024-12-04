@@ -1,0 +1,90 @@
+/* Reset some basic styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #008efa;
+}
+
+header {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    text-align: left;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: - left;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+/* Hero section */
+.hero {
+    background: url('https://resizer.otstatic.com/v2/photos/wide-huge/1/28478577.jpg') no-repeat center center/cover;
+    padding: 153px;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    animation: fadeIn 2s ease-out;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.cta-btn {
+    background-color: #e67e22;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #d35400;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 10;
+    }
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: rgb(234, 234, 234);
+    text-align: center;
+    padding: 10px 0;
+}
