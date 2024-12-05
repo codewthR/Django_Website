@@ -1,0 +1,147 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        .menu-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .menu-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 200px;
+            margin: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .menu-item:hover {
+            transform: scale(1.05);
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .menu-item h3 {
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .menu-item p {
+            margin: 0;
+            color: #777;
+            font-size: 14px;
+        }
+
+        .price {
+            margin: 15px 0;
+            font-size: 18px;
+            color: #e74c3c;
+        }
+
+        .menu-item button {
+            background-color: #27ae60;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .menu-item button:hover {
+            background-color: #2ecc71;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Food Menu</h1>
+    </header>
+
+    <div class="menu-container">
+        <div class="menu-item">
+            <img src="https://via.placeholder.com/200x150" alt="Food Item 1">
+            <h3>Pizza Margherita</h3>
+            <p>Classic cheese pizza with a fresh tomato base.</p>
+            <p class="price">$12.99</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://via.placeholder.com/200x150" alt="Food Item 2">
+            <h3>Burger Deluxe</h3>
+            <p>Juicy beef patty with lettuce, tomato, and cheese.</p>
+            <p class="price">$9.99</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://via.placeholder.com/200x150" alt="Food Item 3">
+            <h3>Caesar Salad</h3>
+            <p>Fresh lettuce with Caesar dressing, croutons, and parmesan.</p>
+            <p class="price">$7.49</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://via.placeholder.com/200x150" alt="Food Item 4">
+            <h3>Spaghetti Bolognese</h3>
+            <p>Traditional Italian pasta with a rich meat sauce.</p>
+            <p class="price">$14.99</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://via.placeholder.com/200x150" alt="Food Item 5">
+            <h3>Chicken Wings</h3>
+            <p>Crispy chicken wings with your choice of sauce.</p>
+            <p class="price">$8.99</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://via.placeholder.com/200x150" alt="Food Item 6">
+            <h3>Vegetable Stir Fry</h3>
+            <p>Stir-fried seasonal vegetables with a savory sauce.</p>
+            <p class="price">$10.49</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+
+</body>
+</html>

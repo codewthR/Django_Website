@@ -1,0 +1,95 @@
+
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the background color and font */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the contact form */
+.contact-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 28px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form field styles */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 16px;
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Submit button styles */
+.submit-btn {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+.submit-btn:active {
+    background-color: #3e8e41;
+}
+
+.submit-btn:focus {
+    outline: none;
+}
